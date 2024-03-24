@@ -1,6 +1,6 @@
 baseURL: "https://alguem.de.natal.br/"
-languageCode: en-us
-title: "Hugo dead simple example"
+languageCode: pt-br
+title: "Alguém de Natal, no Brasil"
 enableGitInfo: true
 menu:
   main:
@@ -8,11 +8,11 @@ menu:
       url: /
       weight: 1
     - name: "<u>T</u>ags"
-      url: "https://alguem.de.natal.br/tags"
+      url: "/tags"
       weight: 3
 
 params:
-  description: "Hugo dead simple example"
+  description: "Um repositório de conhecimentos compartilhados com objetividade"
 
 markup:
   highlight:
