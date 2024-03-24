@@ -1,15 +1,23 @@
 baseURL: "https://alguem.de.natal.br/"
 languageCode: pt-br
+timeZone: America/Fortaleza
 title: "Alguém de Natal, no Brasil"
 enableGitInfo: true
 menu:
   main:
-    - name: "<u>H</u>ome"
+    - name: "<u>C</u>onteúdo"
       url: /
       weight: 1
-    - name: "<u>T</u>ags"
-      url: "/tags"
+    - name: "<u>S</u>obre"
+      url: "/sobre"
       weight: 3
+
+permalinks:
+  post: /ensina/:title
+  term:
+    tags: /sobre/:slug
+  taxonomy:
+    tags: /sobre
 
 params:
   description: "Um repositório de conhecimentos compartilhados com objetividade"
@@ -34,4 +42,4 @@ outputs:
 
 module:
   imports:
-    - path: github.com/barklan/hugo-dead-simple
+    - path: github.com/alexandre-mbm/hugo-dead-simple
