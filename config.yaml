@@ -1,5 +1,6 @@
 baseURL: "https://alguem.de.natal.br/"
-languageCode: pt-br
+defaultContentLanguage: pt-br
+languageCode: pt-BR
 timeZone: America/Fortaleza
 title: "Alguém de Natal, no Brasil"
 enableGitInfo: true
